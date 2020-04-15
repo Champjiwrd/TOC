@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                width: 1440px;
+                background-color: black;
+            }
+            h1{
+                background-color: orange;
+                text-align: center;
+            }
+            
+            .left{
+                position: fixed;
+                left: 0;
+                width: 600px;
+            }
+            .right{
+                position: fixed;
+                right: 0;
+                width: 840px;
+            }
+            img.machine {
+                display: block;
+                margin-left: 30px;
+                margin-right: auto;
+                margin-top: auto;
+                margin-bottom: auto;
+                width: 600px;
+
+            }
+            button {
+                background-color: #cfd0d5; /* Green */
+                border: none;
+                color: white;
+                padding: 20px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                position: absolute;
+                border-radius: 50%;
+            }
+            .latte{
+                left: 585px;
+                top: 11px;
+            }
+            .espres{
+                left: 585px;
+                top: 73px;
+            }
+            .mocca{
+                left: 585px;
+                top: 135px;
+            }
+            .lv1{
+                left: 585px;
+                top: 197px;
+            }
+            .lv2{
+                left: 585px;
+                top: 259px;
+            }
+            .ice{
+                left: 585px;
+                top: 321px;
+            }
+            .hot{
+                left: 585px;
+                top: 383px;
+            }
+
+            .cancel{
+                left: 460px;
+                top: 572px;
+                background-color: red;
+                padding: 20px 40px;
+                border-radius: 15px;
+            }
+
+            .token{
+                left: 432px;
+                top: 525px;
+                background-color: blue;
+                padding: 10px 40px;
+                border-radius: 5px;
+                border
+            }
+
+
+            button:hover{
+                background-color: #707174;
+            }
+
+            
+
+
+        </style>
+    </head>
+    <body>
+        <div class="left">
+            <button class="latte"></button>
+            <button class="espres"></button>
+            <button class="mocca"></button>
+            <button class="lv1"></button>
+            <button class="lv2"></button>
+            <button class="ice"></button>
+            <button class="hot"></button>
+            <button class="cancel">Cancel</button>
+            <button class="token">Inserrt Cash (t)</button>
+            <img class="machine" src="./img/Machine.png" >
+            
+        </div>
+        <div class="right">
+            <img src="./img/Slide1.jpg" width="100%">
+        </div>
+    </body>
+</html>

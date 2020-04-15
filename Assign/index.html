@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+      * {
+        color: lightcyan;
+        box-sizing: border-box;
+        
+      }
+      body {
+        font-family: Verdana, sans-serif; margin:0;
+        background-color: black;
+      }
+      .mySlides {display: none}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+
+      
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+      </style>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    
+    <div class="slideshow-container">
+
+      <div class="mySlides">
+        <img src="./img/Slide1.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="./img/Slide2.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="./img/Slide3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="./img/Slide4.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="./img/Slide5.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="./img/Slide6.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="./img/Slide7.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="./img/Slide8.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="./img/Slide9.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="./img/Slide10.jpg" style="width:100%">
+      </div>
+            
+      <div class="mySlides">
+        <img src="./img/Slide11.jpg" style="width:100%">
+      </div>
+    </div>
+    
+    <h1>String: lelm2ittlec</h1>
+    <h2 id="read">Read: l</h2>
+    <button onclick="readString()">next</button>
+    
+    <script>
+      var slideIndex = 1;
+      var indexString =0;
+      var ip="lelm2ittlec";
+      console.log(ip);
+      showSlides(slideIndex);
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function readString(){
+        document.getElementById("read").innerHTML = "Read: "+ ip[indexString+1];
+        state(ip[indexString]);
+      }
+      function state(next){
+        
+        //currentSlide(next);
+        console.log(next);
+        if (slideIndex==1){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ }
+          else if(next=="2"){ }
+          else if(next=="i"){ }
+          else if(next=="h"){ }
+          else if(next=="t"){ }
+          else if(next=="c"){ }
+        }
+        
+        else if (slideIndex==2){
+          if (next=="l") {}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ currentSlide(5);}
+          else if(next=="2"){ currentSlide(6);}
+          else if(next=="i"){ }
+          else if(next=="h"){ }
+          else if(next=="t"){ }
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==3){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ }
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ currentSlide(5);}
+          else if(next=="2"){ currentSlide(6);}
+          else if(next=="i"){ }
+          else if(next=="h"){ }
+          else if(next=="t"){ }
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==4){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ }
+          else if(next=="1"){ currentSlide(5);}
+          else if(next=="2"){ currentSlide(6);}
+          else if(next=="i"){ }
+          else if(next=="h"){ }
+          else if(next=="t"){ }
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==5){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ }
+          else if(next=="2"){ currentSlide(6);}
+          else if(next=="i"){ currentSlide(7);}
+          else if(next=="h"){ currentSlide(8);}
+          else if(next=="t"){ }
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==6){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ }
+          else if(next=="2"){ }
+          else if(next=="i"){ currentSlide(7);}
+          else if(next=="h"){ currentSlide(8);}
+          else if(next=="t"){ }
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==7){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ currentSlide(5);}
+          else if(next=="2"){ currentSlide(6);}
+          else if(next=="i"){ }
+          else if(next=="h"){ currentSlide(8);}
+          else if(next=="t"){ currentSlide(9);}
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==8){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ currentSlide(5);}
+          else if(next=="2"){ currentSlide(6);}
+          else if(next=="i"){ currentSlide(7);}
+          else if(next=="h"){ }
+          else if(next=="t"){ currentSlide(10);}
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==9){
+          if (next=="l") {currentSlide(2);}
+          else if(next=="e"){ currentSlide(3);}
+          else if(next=="m"){ currentSlide(4);}
+          else if(next=="1"){ currentSlide(5);}
+          else if(next=="2"){ currentSlide(6);}
+          else if(next=="i"){ currentSlide(7);}
+          else if(next=="h"){ currentSlide(8);}
+          else if(next=="t"){ currentSlide(10);}
+          else if(next=="c"){ currentSlide(1);}
+        }
+        else if (slideIndex==10){
+          if (next=="l") {currentSlide(11);}
+          else if(next=="e"){ currentSlide(11);}
+          else if(next=="m"){ currentSlide(11);}
+          else if(next=="1"){ currentSlide(11);}
+          else if(next=="2"){ currentSlide(11);}
+          else if(next=="i"){ currentSlide(11);}
+          else if(next=="h"){ currentSlide(11);}
+          else if(next=="t"){ currentSlide(11);}
+          else if(next=="c"){ currentSlide(11);}
+        }
+
+        else if (slideIndex==11){
+          if (next=="l") {currentSlide(11);}
+          else if(next=="e"){ currentSlide(11);}
+          else if(next=="m"){ currentSlide(11);}
+          else if(next=="1"){ currentSlide(11);}
+          else if(next=="2"){ currentSlide(11);}
+          else if(next=="i"){ currentSlide(11);}
+          else if(next=="h"){ currentSlide(11);}
+          else if(next=="t"){ currentSlide(11);}
+          else if(next=="c"){ currentSlide(11);}
+        }
+        
+        indexString+=1;
+
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        /*if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        */
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndex-1].style.display = "block"; 
+      }
+      </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

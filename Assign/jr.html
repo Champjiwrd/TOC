@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>web App</title>
+  <style>
+    body {
+      width: 500px;
+    }
+
+    img.machine {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .split {
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+    }
+
+    .left {
+      left: 0;
+      background-color: #111;
+    }
+
+    .right {
+      right: 0;
+      background-color: red;
+    }
+
+    .top {
+      background-color: rgb(255, 255, 255);
+      top: 0;
+      height: 20%;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+  </style>
+</head>
+
+
+</style>
+
+<body>
+  <div class="split left">
+    <img class="machine" src="./img/Machine.png" width="80%">
+
+  </div>
+  <div class="split right">
+    <div class="split right top">
+      <h3 id="txt">String section</h3>
+    </div>
+    <div >
+      <h3 class="centered">DFA Picture</h3>
+    </div>
+  </div>
+</body>
+
+</html>

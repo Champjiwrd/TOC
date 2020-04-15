@@ -1,0 +1,647 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="width: 1170px;" viewBox="0 0 1413.45 1540.01" width="1413pt" height="1540pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(1) rotate(0) translate(4 1536.01)">
+<title>finite_state_machine</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1536.01 1409.45,-1536.01 1409.45,4 -4,4"/>
+<!-- Final -->
+<g class="node" id="node1">
+<title>Final</title>
+
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="235.157" cy="-427.214" rx="34.775" ry="34.775"/><ellipse class="inactiveStates" fill="none" stroke="#000000" cx="235.157" cy="-427.214" rx="30.7879" ry="30.7879"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="235.1569" y="-423.0144">Final</text>
+</g>
+<!-- Latte -->
+<g class="node" id="node4">
+<title>Latte</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="368.417" cy="-771.214" rx="30.7539" ry="30.7539"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="368.4167" y="-767.0144">Latte</text>
+</g>
+<!-- Final&#45;&gt;Latte -->
+<g class="edge" id="edge79">
+<title>Final-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 247.814 -459.887 C 272.521 -523.667 327.062 -664.46 353.486 -732.673"/>
+<polygon fill="#000000" stroke="#000000" points="350.298,-734.132 357.174,-742.193 356.826,-731.604 350.298,-734.132"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="303.7921" y="-643.4144">l</text>
+</g>
+<!-- Espresso -->
+<g class="node" id="node5">
+<title>Espresso</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="486.869" cy="-411.214" rx="45.2227" ry="45.2227"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="486.8692" y="-407.0144">Espresso</text>
+</g>
+<!-- Final&#45;&gt;Espresso -->
+<g class="edge" id="edge80">
+<title>Final-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 270.156 -424.99 C 311.9 -422.336 382.198 -417.868 431.376 -414.742"/>
+<polygon fill="#000000" stroke="#000000" points="431.774,-418.224 441.532,-414.096 431.33,-411.238 431.774,-418.224"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="368.4167" y="-424.4144">e</text>
+</g>
+<!-- Mocca -->
+<g class="node" id="node6">
+<title>Mocca</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="1126.85" cy="-495.214" rx="37.1194" ry="37.1194"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1126.8528" y="-491.0144">Mocca</text>
+</g>
+<!-- Final&#45;&gt;Mocca -->
+<g class="edge" id="edge81">
+<title>Final-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 258.202 -400.716 C 267.337 -390.422 278.033 -378.626 288.044 -368.214 C 309.283 -346.125 315.325 -341.322 337.54 -320.214 C 431.166 -231.254 433.594 -177.673 550.23 -122.214 C 620.235 -88.9281 645.465 -98.2144 722.981 -98.2144 C 722.981 -98.2144 722.981 -98.2144 923.108 -98.2144 C 1078.68 -98.2144 1115.55 -342.498 1124.22 -447.82"/>
+<polygon fill="#000000" stroke="#000000" points="1120.73,-448.165 1124.99,-457.866 1127.71,-447.626 1120.73,-448.165"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="722.9808" y="-102.4144">m</text>
+</g>
+<!-- secret_node -->
+<!-- INIT -->
+<g class="node" id="node3">
+<title>INIT</title>
+<ellipse class="currentState" fill="none" stroke="#000000" cx="70.9369" cy="-504.214" rx="30.1746" ry="30.1746"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="70.9369" y="-500.0144">INIT</text>
+</g>
+<!-- secret_node&#45;&gt;INIT -->
+<g class="edge" id="edge1">
+<title>secret_node-&gt;INIT</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M 3.7946 -504.214 C 8.0756 -504.214 18.6991 -504.214 30.2641 -504.214"/>
+<polygon fill="#000000" stroke="#000000" stroke-width="2" points="30.5339,-507.715 40.5338,-504.214 30.5338,-500.715 30.5339,-507.715"/>
+</g>
+<!-- INIT&#45;&gt;Final -->
+<g class="edge" id="edge82">
+<title>INIT-&gt;Final</title>
+<path fill="none" stroke="#000000" d="M 104.53 -481.682 C 109.394 -478.754 114.403 -475.909 119.274 -473.414 C 146.262 -459.592 178.389 -447.07 201.963 -438.561"/>
+<polygon fill="#000000" stroke="#000000" points="102.641,-478.736 95.996,-486.988 106.337,-484.681 102.641,-478.736"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="150.7717" y="-477.4144">1,2,3,i,h,t,c</text>
+</g>
+<!-- INIT&#45;&gt;INIT -->
+<g class="edge" id="edge5">
+<title>INIT-&gt;INIT</title>
+<path fill="none" stroke="#000000" d="M 62.9733 -543.745 C 64.3185 -549.035 66.973 -552.551 70.9369 -552.551 C 77.1244 -552.551 80.1214 -543.984 79.9281 -533.475"/>
+<polygon fill="#000000" stroke="#000000" points="66.424,-543.077 61.9457,-533.475 59.4588,-543.774 66.424,-543.077"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="70.9369" y="-556.7512">1,2,3,i,h,t,c</text>
+</g>
+<!-- INIT&#45;&gt;Latte -->
+<g class="edge" id="edge2">
+<title>INIT-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 71.6657 -534.846 C 73.9178 -600.573 83.0122 -751.882 119.274 -785.214 C 176.623 -837.931 276.321 -809.687 330.586 -788.205"/>
+<polygon fill="#000000" stroke="#000000" points="332.234,-791.313 340.17,-784.294 329.588,-784.832 332.234,-791.313"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="235.1569" y="-819.4144">l</text>
+</g>
+<!-- INIT&#45;&gt;Latte -->
+<g class="edge" id="edge12">
+<title>INIT-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 101.364 -531.524 C 160.926 -584.983 291.74 -702.394 345.08 -750.268"/>
+<polygon fill="#000000" stroke="#000000" points="103.566,-528.797 93.7857,-524.722 98.8899,-534.006 103.566,-528.797"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="235.1569" y="-685.4144">i,h,t,c</text>
+</g>
+<!-- INIT&#45;&gt;Espresso -->
+<g class="edge" id="edge3">
+<title>INIT-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 87.5184 -478.704 C 109.124 -448.297 150.127 -399.541 200.27 -383.214 C 278.91 -357.609 375.595 -376.789 434.163 -393.565"/>
+<polygon fill="#000000" stroke="#000000" points="433.353,-396.975 443.934,-396.444 435.331,-390.26 433.353,-396.975"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="303.7921" y="-376.4144">e</text>
+</g>
+<!-- INIT&#45;&gt;Espresso -->
+<g class="edge" id="edge19">
+<title>INIT-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 77.777 -464.178 C 84.2143 -438.572 96.4379 -406.634 119.274 -387.214 C 177.758 -337.48 211.656 -358.082 288.044 -350.414 C 344.97 -344.7 407.623 -369.369 447.089 -388.988"/>
+<polygon fill="#000000" stroke="#000000" points="74.3497,-463.464 75.5081,-473.996 81.17,-465.04 74.3497,-463.464"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="303.7921" y="-355.4144">i,h,t,c</text>
+</g>
+<!-- INIT&#45;&gt;Mocca -->
+<g class="edge" id="edge4">
+<title>INIT-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 72.2071 -473.854 C 76.5579 -375.983 92.1117 -73.1581 119.274 -39.2144 C 153.226 3.2154 180.815 -0.2144 235.157 -0.2144 C 235.157 -0.2144 235.157 -0.2144 994.603 -0.2144 C 1032.94 -0.2144 1049.54 -7.8168 1071.54 -39.2144 C 1094.68 -72.2332 1115.78 -337.638 1123.62 -447.678"/>
+<polygon fill="#000000" stroke="#000000" points="1120.14,-448.101 1124.34,-457.829 1127.12,-447.608 1120.14,-448.101"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="661.6855" y="-4.4144">m</text>
+</g>
+<!-- INIT&#45;&gt;Mocca -->
+<g class="edge" id="edge26">
+<title>INIT-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 74.3638 -463.43 C 81.0359 -389.498 97.0846 -236.524 119.274 -188.214 C 152.278 -116.358 156.083 -53.2144 235.157 -53.2144 C 235.157 -53.2144 235.157 -53.2144 994.603 -53.2144 C 1078.81 -53.2144 1113.9 -351.35 1123.76 -457.911"/>
+<polygon fill="#000000" stroke="#000000" points="70.8464,-463.472 73.4478,-473.743 77.8189,-464.092 70.8464,-463.472"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="661.6855" y="-57.4144">i,h,t,c</text>
+</g>
+<!-- Level1 -->
+<g class="node" id="node7">
+<title>Level1</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="1367.6" cy="-1084.21" rx="37.7006" ry="37.7006"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1367.6025" y="-1080.0144">Level1</text>
+</g>
+<!-- INIT&#45;&gt;Level1 -->
+<g class="edge" id="edge35">
+<title>INIT-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 72.2078 -544.849 C 77.2007 -699.542 96.3274 -1246.71 119.274 -1321.21 C 148.837 -1417.2 134.723 -1515.21 235.157 -1515.21 C 235.157 -1515.21 235.157 -1515.21 1248.9 -1515.21 C 1285.16 -1515.21 1294.08 -1494.87 1311.75 -1463.21 C 1344.22 -1405.07 1360.07 -1205.99 1365.43 -1122.04"/>
+<polygon fill="#000000" stroke="#000000" points="75.7049,-544.701 71.8861,-534.818 68.7085,-544.925 75.7049,-544.701"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-1519.4144">c</text>
+</g>
+<!-- Level2 -->
+<g class="node" id="node8">
+<title>Level2</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="1248.9" cy="-909.214" rx="37.7006" ry="37.7006"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1248.9025" y="-905.0144">Level2</text>
+</g>
+<!-- INIT&#45;&gt;Level2 -->
+<g class="edge" id="edge44">
+<title>INIT-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 111.449 -502.182 C 177.467 -499.707 312.08 -498.154 423.508 -519.214 C 572.629 -547.399 597.108 -603.091 746.426 -630.214 C 823.718 -644.254 844.552 -635.214 923.108 -635.214 C 923.108 -635.214 923.108 -635.214 1126.85 -635.214 C 1178.15 -635.214 1222.77 -797.471 1240.62 -872.261"/>
+<polygon fill="#000000" stroke="#000000" points="111.308,-498.685 101.456,-502.584 111.589,-505.679 111.308,-498.685"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="722.9808" y="-630.4144">c</text>
+</g>
+<!-- Level3 -->
+<g class="node" id="node9">
+<title>Level3</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="661.685" cy="-1016.21" rx="37.7006" ry="37.7006"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="661.6855" y="-1012.0144">Level3</text>
+</g>
+<!-- INIT&#45;&gt;Level3 -->
+<g class="edge" id="edge53">
+<title>INIT-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 72.1661 -544.622 C 76.8461 -692.12 94.5424 -1194.1 119.274 -1217.21 C 275.928 -1363.61 548.552 -1126.02 634.753 -1043.1"/>
+<polygon fill="#000000" stroke="#000000" points="75.6645,-544.512 71.8517,-534.627 68.6679,-544.732 75.6645,-544.512"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="368.4167" y="-1247.4144">c</text>
+</g>
+<!-- Iced -->
+<g class="node" id="node10">
+<title>Iced</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="872.01" cy="-992.214" rx="27.8073" ry="27.8073"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-988.0144">Iced</text>
+</g>
+<!-- INIT&#45;&gt;Iced -->
+<g class="edge" id="edge63">
+<title>INIT-&gt;Iced</title>
+<path fill="none" stroke="#000000" d="M 74.9366 -544.601 C 82.4597 -616.678 99.7298 -764.4 119.274 -812.214 C 130.925 -840.719 414.126 -1249.13 441.508 -1263.21 C 584.877 -1336.98 678.17 -1301.68 797.466 -1193.21 C 848.135 -1147.15 864.477 -1063.46 869.661 -1020.04"/>
+<polygon fill="#000000" stroke="#000000" points="78.4061,-544.124 73.8982,-534.536 71.443,-544.842 78.4061,-544.124"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="486.8692" y="-1300.4144">c</text>
+</g>
+<!-- Hot -->
+<g class="node" id="node11">
+<title>Hot</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="771.946" cy="-1124.21" rx="25.54" ry="25.54"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-1120.0144">Hot</text>
+</g>
+<!-- INIT&#45;&gt;Hot -->
+<g class="edge" id="edge73">
+<title>INIT-&gt;Hot</title>
+<path fill="none" stroke="#000000" d="M 72.0549 -545.165 C 76.2634 -691.609 92.301 -1184.08 119.274 -1249.21 C 149.144 -1321.34 157.09 -1381.21 235.157 -1381.21 C 235.157 -1381.21 235.157 -1381.21 420.401 -1381.21 C 566.122 -1381.21 597.461 -1313.21 699.536 -1209.21 C 720.176 -1188.19 741.833 -1162.16 756.024 -1144.49"/>
+<polygon fill="#000000" stroke="#000000" points="75.544,-544.73 71.7612,-534.833 68.5468,-544.929 75.544,-544.73"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="420.4007" y="-1385.4144">c</text>
+</g>
+<!-- Money20 -->
+<g class="node" id="node12">
+<title>Money20</title>
+<ellipse class="inactiveStates" fill="none" stroke="#000000" cx="994.603" cy="-445.214" rx="48.0993" ry="48.0993"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="994.6033" y="-441.0144">Money20</text>
+</g>
+<!-- INIT&#45;&gt;Money20 -->
+<g class="edge" id="edge77">
+<title>INIT-&gt;Money20</title>
+<path fill="none" stroke="#000000" d="M 72.712 -463.585 C 78.9659 -375.379 107.25 -174.214 235.157 -174.214 C 235.157 -174.214 235.157 -174.214 872.01 -174.214 C 903.853 -174.214 910.67 -191.868 928.554 -218.214 C 965.666 -272.89 982.222 -348.578 989.399 -397.223"/>
+<polygon fill="#000000" stroke="#000000" points="69.2067,-463.555 72.0534,-473.76 76.1921,-464.007 69.2067,-463.555"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="578.0329" y="-178.4144">1,2,3,i,h,c</text>
+</g>
+<!-- Latte&#45;&gt;Latte -->
+<g class="edge" id="edge6">
+<title>Latte-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 359.051 -800.802 C 358.849 -811.428 361.971 -820.091 368.417 -820.091 C 372.646 -820.091 375.445 -816.36 376.812 -810.792"/>
+<polygon fill="#000000" stroke="#000000" points="380.299,-811.094 377.783,-800.802 373.332,-810.417 380.299,-811.094"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="368.4167" y="-824.2911">l</text>
+</g>
+<!-- Latte&#45;&gt;Espresso -->
+<g class="edge" id="edge7">
+<title>Latte-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 371.974 -740.281 C 377.84 -694.911 391.543 -608.148 417.293 -538.414 C 427.576 -510.567 443.151 -481.382 456.959 -458.002"/>
+<polygon fill="#000000" stroke="#000000" points="460.011,-459.717 462.15,-449.34 454.007,-456.119 460.011,-459.717"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="420.4007" y="-542.4144">e</text>
+</g>
+<!-- Latte&#45;&gt;Mocca -->
+<g class="edge" id="edge8">
+<title>Latte-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 388.261 -747.247 C 396.665 -737.89 406.908 -727.454 417.293 -719.214 C 470.783 -676.778 485.933 -665.188 550.23 -642.214 C 625.792 -615.216 649.667 -628.56 728.426 -613.214 C 881.927 -583.306 929.058 -599.672 1071.54 -535.214 C 1077.71 -532.425 1083.88 -528.89 1089.74 -525.08"/>
+<polygon fill="#000000" stroke="#000000" points="1091.81,-527.903 1098.07,-519.356 1087.85,-522.133 1091.81,-527.903"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-613.4144">m</text>
+</g>
+<!-- Latte&#45;&gt;Level1 -->
+<g class="edge" id="edge9">
+<title>Latte-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 376.033 -801.198 C 383.189 -830.562 393.62 -876.675 399.293 -917.214 C 403.276 -945.673 400.54 -1151.87 417.293 -1175.21 C 449.568 -1220.19 483.973 -1196.09 532.23 -1223.21 C 694.979 -1314.7 685.312 -1470.21 872.01 -1470.21 C 872.01 -1470.21 872.01 -1470.21 1248.9 -1470.21 C 1278.8 -1470.21 1292.96 -1469.47 1311.75 -1446.21 C 1350.06 -1398.8 1362.31 -1219.4 1366.05 -1132.27"/>
+<polygon fill="#000000" stroke="#000000" points="1369.56,-1132.25 1366.47,-1122.12 1362.56,-1131.97 1369.56,-1132.25"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-1474.4144">1</text>
+</g>
+<!-- Latte&#45;&gt;Level2 -->
+<g class="edge" id="edge10">
+<title>Latte-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 398.031 -762.282 C 404.36 -760.499 411.027 -758.716 417.293 -757.214 C 508.223 -735.431 531.344 -730.922 623.836 -717.214 C 708.533 -704.662 729.957 -701.82 815.466 -697.414 C 820.3 -697.165 821.8 -695.782 826.357 -697.414 C 836.107 -700.908 834.825 -708.164 844.357 -712.214 C 926.013 -746.912 960.882 -700.787 1042.65 -735.214 C 1115.06 -765.698 1181.1 -830.906 1218.05 -872.267"/>
+<polygon fill="#000000" stroke="#000000" points="1215.59,-874.765 1224.83,-879.951 1220.84,-870.135 1215.59,-874.765"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="820.9114" y="-701.4144">2</text>
+</g>
+<!-- Latte&#45;&gt;Level3 -->
+<g class="edge" id="edge11">
+<title>Latte-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 370.274 -802.229 C 374.565 -863.525 387.201 -997.122 417.293 -1030.21 C 467.161 -1085.05 562.516 -1058.67 618.232 -1036.29"/>
+<polygon fill="#000000" stroke="#000000" points="619.584,-1039.51 627.487,-1032.46 616.909,-1033.04 619.584,-1039.51"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="486.8692" y="-1066.4144">3</text>
+</g>
+<!-- Espresso&#45;&gt;Latte -->
+<g class="edge" id="edge13">
+<title>Espresso-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 455.575 -444.247 C 441.784 -460.575 426.624 -481.281 417.293 -502.414 C 399.554 -542.592 381.902 -665.306 373.495 -730.117"/>
+<polygon fill="#000000" stroke="#000000" points="369.979,-730.015 372.178,-740.379 376.922,-730.905 369.979,-730.015"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="420.4007" y="-506.4144">l</text>
+</g>
+<!-- Espresso&#45;&gt;Espresso -->
+<g class="edge" id="edge14">
+<title>Espresso-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 474.642 -455.041 C 475.446 -466.199 479.522 -474.576 486.869 -474.576 C 491.806 -474.576 495.266 -470.794 497.248 -464.929"/>
+<polygon fill="#000000" stroke="#000000" points="500.699,-465.514 499.096,-455.041 493.818,-464.228 500.699,-465.514"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="486.8692" y="-478.7755">e</text>
+</g>
+<!-- Espresso&#45;&gt;Mocca -->
+<g class="edge" id="edge15">
+<title>Espresso-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 531.952 -403.953 C 647.818 -386.135 953.174 -344.765 1042.65 -388.214 C 1070.18 -401.582 1091.4 -428.793 1105.65 -452.428"/>
+<polygon fill="#000000" stroke="#000000" points="1102.73,-454.373 1110.77,-461.275 1108.79,-450.867 1102.73,-454.373"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="820.9114" y="-376.4144">m</text>
+</g>
+<!-- Espresso&#45;&gt;Level1 -->
+<g class="edge" id="edge16">
+<title>Espresso-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 495.021 -366.387 C 508.204 -296.149 534.33 -166.638 550.23 -152.214 C 587.296 -118.592 611.642 -136.214 661.685 -136.214 C 661.685 -136.214 661.685 -136.214 1248.9 -136.214 C 1301.4 -136.214 1295.57 -186.278 1311.75 -236.214 C 1336.41 -312.298 1359.37 -867.874 1365.81 -1036.09"/>
+<polygon fill="#000000" stroke="#000000" points="1362.32,-1036.28 1366.2,-1046.13 1369.31,-1036.01 1362.32,-1036.28"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="923.1084" y="-140.4144">1</text>
+</g>
+<!-- Espresso&#45;&gt;Level2 -->
+<g class="edge" id="edge17">
+<title>Espresso-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 522.09 -382.564 C 530.926 -376.259 540.634 -370.034 550.23 -365.214 C 580.858 -349.833 590.445 -349.944 623.836 -342.214 C 805.223 -300.226 876.402 -249.398 1042.65 -333.214 C 1109.32 -366.826 1121.35 -388.043 1164.16 -449.214 C 1239.52 -556.904 1191.34 -611.26 1211.05 -741.214 C 1217.33 -782.602 1228.06 -828.973 1236.5 -862.494"/>
+<polygon fill="#000000" stroke="#000000" points="1233.18,-863.637 1239.04,-872.465 1239.96,-861.911 1233.18,-863.637"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-294.4144">2</text>
+</g>
+<!-- Espresso&#45;&gt;Level3 -->
+<g class="edge" id="edge18">
+<title>Espresso-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 496.456 -456.032 C 508.115 -509.449 528.893 -601.283 550.23 -679.214 C 579.245 -785.186 588.187 -811.286 623.836 -915.214 C 630.192 -933.746 637.675 -954 644.302 -971.474"/>
+<polygon fill="#000000" stroke="#000000" points="641.05,-972.769 647.883,-980.866 647.591,-970.275 641.05,-972.769"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="578.0329" y="-864.4144">3</text>
+</g>
+<!-- Mocca&#45;&gt;Latte -->
+<g class="edge" id="edge20">
+<title>Mocca-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 1089.54 -498.013 C 1035.21 -502.499 931.305 -512.633 844.357 -530.214 C 661.973 -567.094 588.258 -529.81 441.508 -644.214 C 412.793 -666.601 393.34 -703.652 381.767 -731.973"/>
+<polygon fill="#000000" stroke="#000000" points="378.389,-731.001 378.001,-741.588 384.907,-733.554 378.389,-731.001"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-549.4144">l</text>
+</g>
+<!-- Mocca&#45;&gt;Espresso -->
+<g class="edge" id="edge21">
+<title>Mocca-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 1115.66 -459.611 C 1103.46 -427.89 1080.47 -383.844 1042.65 -366.214 C 872.235 -286.759 640.472 -353.779 538.556 -390.744"/>
+<polygon fill="#000000" stroke="#000000" points="537.281,-387.483 529.105,-394.221 539.699,-394.053 537.281,-387.483"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="820.9114" y="-334.4144">e</text>
+</g>
+<!-- Mocca&#45;&gt;Mocca -->
+<g class="edge" id="edge22">
+<title>Mocca-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 1115.61 -530.856 C 1115.84 -541.872 1119.59 -550.524 1126.85 -550.524 C 1131.62 -550.524 1134.87 -546.798 1136.61 -541.123"/>
+<polygon fill="#000000" stroke="#000000" points="1140.13,-541.253 1138.09,-530.856 1133.2,-540.253 1140.13,-541.253"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1126.8528" y="-554.7235">m</text>
+</g>
+<!-- Mocca&#45;&gt;Level1 -->
+<g class="edge" id="edge23">
+<title>Mocca-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 1158.71 -475.042 C 1173.93 -466.571 1192.78 -457.7 1211.05 -453.414 C 1255.93 -442.888 1292.09 -436.525 1311.75 -478.214 C 1335.33 -528.216 1357.69 -901.519 1365.06 -1036.06"/>
+<polygon fill="#000000" stroke="#000000" points="1361.57,-1036.28 1365.6,-1046.08 1368.56,-1035.9 1361.57,-1036.28"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1248.9025" y="-457.4144">1</text>
+</g>
+<!-- Mocca&#45;&gt;Level2 -->
+<g class="edge" id="edge24">
+<title>Mocca-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 1155.85 -519.064 C 1169.3 -531.721 1184.22 -548.375 1193.05 -566.414 C 1218.1 -617.571 1236.59 -779.912 1244.57 -861.476"/>
+<polygon fill="#000000" stroke="#000000" points="1241.09,-861.865 1245.53,-871.483 1248.06,-861.193 1241.09,-861.865"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1187.6073" y="-570.4144">2</text>
+</g>
+<!-- Mocca&#45;&gt;Level3 -->
+<g class="edge" id="edge25">
+<title>Mocca-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 1107.37 -527.302 C 1097.59 -542.107 1084.98 -559.415 1071.54 -573.214 C 976.513 -670.845 937.204 -677.998 826.357 -757.214 C 778.771 -791.221 749.142 -782.002 717.536 -831.214 C 691.712 -871.422 713.999 -891.67 699.536 -937.214 C 695.649 -949.452 690.209 -962.211 684.663 -973.815"/>
+<polygon fill="#000000" stroke="#000000" points="681.496,-972.325 680.22,-982.843 687.776,-975.416 681.496,-972.325"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-747.4144">3</text>
+</g>
+<!-- Level1&#45;&gt;Latte -->
+<g class="edge" id="edge27">
+<title>Level1-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 1362.91 -1121.79 C 1350.64 -1211.77 1313.93 -1432.21 1248.9 -1432.21 C 1066.1 -1432.21 1066.1 -1432.21 1066.1 -1432.21 C 1011.82 -1432.21 999.202 -1420.42 946.554 -1407.21 C 900.64 -1395.69 887.519 -1396.65 844.357 -1377.21 C 832.308 -1371.79 450.08 -1134.27 441.508 -1124.21 C 380.6 -1052.76 414.616 -1009.85 399.293 -917.214 C 393.318 -881.088 384.529 -840.35 377.855 -811.104"/>
+<polygon fill="#000000" stroke="#000000" points="381.244,-810.225 375.59,-801.265 374.422,-811.795 381.244,-810.225"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-1400.4144">l</text>
+</g>
+<!-- Level1&#45;&gt;Espresso -->
+<g class="edge" id="edge28">
+<title>Level1-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 1366.26 -1046.21 C 1359.99 -883.057 1330.44 -250.214 1248.9 -250.214 C 923.108 -250.214 923.108 -250.214 923.108 -250.214 C 736.187 -250.214 623.363 -297.182 550.23 -343.214 C 539.881 -349.728 530.107 -358.344 521.475 -367.247"/>
+<polygon fill="#000000" stroke="#000000" points="518.744,-365.044 514.504,-374.753 523.873,-369.807 518.744,-365.044"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="923.1084" y="-255.4144">e</text>
+</g>
+<!-- Level1&#45;&gt;Mocca -->
+<g class="edge" id="edge29">
+<title>Level1-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 1360.86 -1046.82 C 1339.6 -932.797 1270.76 -592.589 1193.05 -515.214 C 1187.67 -509.856 1180.91 -505.925 1173.77 -503.042"/>
+<polygon fill="#000000" stroke="#000000" points="1174.51,-499.596 1163.91,-499.726 1172.28,-506.231 1174.51,-499.596"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1248.9025" y="-724.4144">m</text>
+</g>
+<!-- Level1&#45;&gt;Level1 -->
+<g class="edge" id="edge30">
+<title>Level1-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 1356.75 -1120.74 C 1357.08 -1131.61 1360.69 -1140.06 1367.6 -1140.06 C 1372.14 -1140.06 1375.25 -1136.42 1376.95 -1130.85"/>
+<polygon fill="#000000" stroke="#000000" points="1380.45,-1131.15 1378.45,-1120.74 1373.52,-1130.12 1380.45,-1131.15"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1367.6025" y="-1144.2643">1,t</text>
+</g>
+<!-- Level1&#45;&gt;Level2 -->
+<g class="edge" id="edge31">
+<title>Level1-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 1359.09 -1047.19 C 1350.87 -1017.84 1336.02 -977.133 1311.75 -948.414 C 1306.14 -941.778 1299.12 -935.915 1291.81 -930.878"/>
+<polygon fill="#000000" stroke="#000000" points="1293.49,-927.794 1283.18,-925.348 1289.71,-933.689 1293.49,-927.794"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1308.2524" y="-952.4144">2</text>
+</g>
+<!-- Level1&#45;&gt;Level3 -->
+<g class="edge" id="edge32">
+<title>Level1-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 1358.29 -1121.1 C 1339.64 -1190.64 1295.51 -1334.21 1248.9 -1334.21 C 1066.1 -1334.21 1066.1 -1334.21 1066.1 -1334.21 C 916.415 -1334.21 848.109 -1338.06 746.426 -1228.21 C 736.237 -1217.21 722.544 -1181.35 717.536 -1167.21 C 706.233 -1135.31 711.07 -1125.04 699.536 -1093.21 C 695.372 -1081.73 689.99 -1069.69 684.598 -1058.65"/>
+<polygon fill="#000000" stroke="#000000" points="687.694,-1057.01 680.093,-1049.63 681.432,-1060.14 687.694,-1057.01"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="994.6033" y="-1338.4144">3</text>
+</g>
+<!-- Level1&#45;&gt;Iced -->
+<g class="edge" id="edge33">
+<title>Level1-&gt;Iced</title>
+<path fill="none" stroke="#000000" d="M 1330.74 -1074.55 C 1324.43 -1073.01 1317.92 -1071.51 1311.75 -1070.21 C 1137.88 -1033.7 1091.7 -1038.93 917.663 -1003.21 C 914.818 -1002.63 911.881 -1002 908.932 -1001.34"/>
+<polygon fill="#000000" stroke="#000000" points="909.511,-997.878 898.979,-999.034 907.933,-1004.7 909.511,-997.878"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1126.8528" y="-1047.4144">i</text>
+</g>
+<!-- Level1&#45;&gt;Hot -->
+<g class="edge" id="edge34">
+<title>Level1-&gt;Hot</title>
+<path fill="none" stroke="#000000" d="M 1363.31 -1121.91 C 1357.47 -1154.46 1343.77 -1199.96 1311.75 -1224.21 C 1224.24 -1290.51 1175.89 -1250.21 1066.1 -1250.21 C 872.01 -1250.21 872.01 -1250.21 872.01 -1250.21 C 844.709 -1250.21 834.789 -1245.5 815.466 -1226.21 C 805.421 -1216.19 792.512 -1183.88 783.37 -1158.28"/>
+<polygon fill="#000000" stroke="#000000" points="786.555,-1156.79 779.943,-1148.51 779.949,-1159.1 786.555,-1156.79"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1066.0983" y="-1254.4144">h</text>
+</g>
+<!-- Level2&#45;&gt;Latte -->
+<g class="edge" id="edge36">
+<title>Level2-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 1215.8 -890.43 C 1133.83 -845.852 913.869 -737.914 717.536 -745.214 C 605.92 -749.365 474.647 -760.955 409.455 -767.164"/>
+<polygon fill="#000000" stroke="#000000" points="408.816,-763.709 399.197,-768.149 409.485,-770.677 408.816,-763.709"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="820.9114" y="-755.4144">l</text>
+</g>
+<!-- Level2&#45;&gt;Espresso -->
+<g class="edge" id="edge37">
+<title>Level2-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 1239.78 -872.339 C 1231.59 -838.407 1219.56 -786.616 1211.05 -741.214 C 1206.09 -714.711 1212.2 -640.203 1193.05 -621.214 C 1105.28 -534.164 1037.11 -614.031 917.663 -582.214 C 862.078 -567.409 850.918 -555.471 797.466 -534.214 C 706.409 -498.003 600.25 -456.012 538.589 -431.644"/>
+<polygon fill="#000000" stroke="#000000" points="539.671,-428.308 529.084,-427.888 537.098,-434.818 539.671,-428.308"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-580.4144">e</text>
+</g>
+<!-- Level2&#45;&gt;Mocca -->
+<g class="edge" id="edge38">
+<title>Level2-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 1247.64 -871.069 C 1244.14 -785.965 1231.87 -583.793 1193.05 -529.414 C 1187.59 -521.76 1179.89 -515.695 1171.66 -510.933"/>
+<polygon fill="#000000" stroke="#000000" points="1173.1,-507.739 1162.61,-506.265 1169.9,-513.96 1173.1,-507.739"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1187.6073" y="-533.4144">m</text>
+</g>
+<!-- Level2&#45;&gt;Level1 -->
+<g class="edge" id="edge39">
+<title>Level2-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 1270.55 -940.367 C 1282.72 -957.952 1298.16 -980.358 1311.75 -1000.41 C 1321.34 -1014.56 1331.74 -1030.11 1340.95 -1043.94"/>
+<polygon fill="#000000" stroke="#000000" points="1338.05,-1045.91 1346.5,-1052.3 1343.88,-1042.04 1338.05,-1045.91"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1308.2524" y="-1004.4144">1</text>
+</g>
+<!-- Level2&#45;&gt;Level2 -->
+<g class="edge" id="edge40">
+<title>Level2-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 1238.05 -945.741 C 1238.38 -956.608 1241.99 -965.064 1248.9 -965.064 C 1253.44 -965.064 1256.55 -961.423 1258.25 -955.847"/>
+<polygon fill="#000000" stroke="#000000" points="1261.75,-956.147 1259.75,-945.741 1254.82,-955.118 1261.75,-956.147"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1248.9025" y="-969.2643">2,t</text>
+</g>
+<!-- Level2&#45;&gt;Level3 -->
+<g class="edge" id="edge41">
+<title>Level2-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 1245.67 -946.965 C 1236.27 -1028.67 1200.75 -1218.78 1071.54 -1271.21 C 977.91 -1309.21 940.913 -1292.02 844.357 -1262.21 C 818.919 -1254.36 763.3 -1213.81 746.426 -1193.21 C 715.312 -1155.25 720.784 -1137.47 699.536 -1093.21 C 694.246 -1082.2 688.46 -1070.34 683.039 -1059.3"/>
+<polygon fill="#000000" stroke="#000000" points="686.147,-1057.69 678.59,-1050.26 679.866,-1060.78 686.147,-1057.69"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="923.1084" y="-1290.4144">3</text>
+</g>
+<!-- Level2&#45;&gt;Iced -->
+<g class="edge" id="edge42">
+<title>Level2-&gt;Iced</title>
+<path fill="none" stroke="#000000" d="M 1212.01 -918.73 C 1205.7 -920.282 1199.2 -921.832 1193.05 -923.214 C 1071.29 -950.619 1038.68 -947.657 917.663 -978.214 C 914.528 -979.006 911.289 -979.881 908.05 -980.796"/>
+<polygon fill="#000000" stroke="#000000" points="907.047,-977.443 898.438,-983.618 909.019,-984.16 907.047,-977.443"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1066.0983" y="-952.4144">i</text>
+</g>
+<!-- Level2&#45;&gt;Hot -->
+<g class="edge" id="edge43">
+<title>Level2-&gt;Hot</title>
+<path fill="none" stroke="#000000" d="M 1243.4 -947.011 C 1234.82 -990.904 1213.74 -1061.69 1164.16 -1096.21 C 1135.33 -1116.29 899.269 -1122.18 807.885 -1123.72"/>
+<polygon fill="#000000" stroke="#000000" points="807.676,-1120.23 797.733,-1123.89 807.788,-1127.23 807.676,-1120.23"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="994.6033" y="-1123.4144">h</text>
+</g>
+<!-- Level3&#45;&gt;Latte -->
+<g class="edge" id="edge45">
+<title>Level3-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 624.441 -1009.39 C 571.32 -997.768 473.97 -969.213 417.293 -908.214 C 392.691 -881.736 380.321 -842.043 374.195 -812.187"/>
+<polygon fill="#000000" stroke="#000000" points="377.579,-811.248 372.279,-802.075 370.702,-812.551 377.579,-811.248"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="486.8692" y="-984.4144">l</text>
+</g>
+<!-- Level3&#45;&gt;Espresso -->
+<g class="edge" id="edge46">
+<title>Level3-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 645.812 -981.445 C 637.807 -962.309 628.773 -937.903 623.836 -915.214 C 599.508 -803.417 645.426 -765.76 605.836 -658.414 C 591.452 -619.416 569.97 -619.795 550.23 -583.214 C 529.874 -545.49 513.397 -499.844 502.353 -465.057"/>
+<polygon fill="#000000" stroke="#000000" points="505.563,-463.595 499.243,-455.091 498.881,-465.68 505.563,-463.595"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="578.0329" y="-662.4144">e</text>
+</g>
+<!-- Level3&#45;&gt;Mocca -->
+<g class="edge" id="edge47">
+<title>Level3-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 677.983 -981.883 C 691.117 -954.595 708.788 -918.825 717.536 -905.214 C 728.627 -887.956 730.938 -882.668 746.426 -869.214 C 806.226 -817.271 835.526 -824.696 899.663 -778.214 C 968.012 -728.68 990.167 -719.323 1042.65 -653.214 C 1070.45 -618.208 1093.58 -572.673 1108.53 -539.485"/>
+<polygon fill="#000000" stroke="#000000" points="1111.86,-540.601 1112.71,-530.04 1105.46,-537.767 1111.86,-540.601"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-814.4144">m</text>
+</g>
+<!-- Level3&#45;&gt;Level1 -->
+<g class="edge" id="edge48">
+<title>Level3-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 680.574 -1049.47 C 687.423 -1062.73 694.666 -1078.35 699.536 -1093.21 C 724.206 -1168.51 696.039 -1204.06 746.426 -1265.21 C 843.131 -1382.58 914.027 -1387.21 1066.1 -1387.21 C 1066.1 -1387.21 1066.1 -1387.21 1248.9 -1387.21 C 1303.12 -1387.21 1342.77 -1216.87 1359.21 -1131.63"/>
+<polygon fill="#000000" stroke="#000000" points="1362.68,-1132.15 1361.1,-1121.67 1355.8,-1130.84 1362.68,-1132.15"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="994.6033" y="-1390.4144">1</text>
+</g>
+<!-- Level3&#45;&gt;Level2 -->
+<g class="edge" id="edge49">
+<title>Level3-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 689.684 -990.621 C 734.081 -951.967 825.123 -880.349 917.663 -853.414 C 922.31 -852.062 924.583 -850.647 928.554 -853.414 C 947.519 -866.633 927.743 -888.777 946.554 -902.214 C 986.032 -930.416 1126.08 -921.548 1200.92 -914.434"/>
+<polygon fill="#000000" stroke="#000000" points="1201.42,-917.903 1211.03,-913.446 1200.74,-910.936 1201.42,-917.903"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="923.1084" y="-857.4144">2</text>
+</g>
+<!-- Level3&#45;&gt;Level3 -->
+<g class="edge" id="edge50">
+<title>Level3-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 650.453 -1052.47 C 650.734 -1063.47 654.479 -1072.06 661.685 -1072.06 C 666.415 -1072.06 669.653 -1068.36 671.401 -1062.71"/>
+<polygon fill="#000000" stroke="#000000" points="674.914,-1062.88 672.918,-1052.47 667.989,-1061.85 674.914,-1062.88"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="661.6855" y="-1076.2643">3,t</text>
+</g>
+<!-- Level3&#45;&gt;Iced -->
+<g class="edge" id="edge51">
+<title>Level3-&gt;Iced</title>
+<path fill="none" stroke="#000000" d="M 695.371 -998.842 C 710.546 -991.955 728.95 -984.863 746.426 -981.414 C 775.862 -975.606 809.791 -979.117 834.956 -983.631"/>
+<polygon fill="#000000" stroke="#000000" points="834.343,-987.077 844.824,-985.532 835.667,-980.204 834.343,-987.077"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-985.4144">i</text>
+</g>
+<!-- Level3&#45;&gt;Hot -->
+<g class="edge" id="edge52">
+<title>Level3-&gt;Hot</title>
+<path fill="none" stroke="#000000" d="M 688.941 -1042.91 C 706.417 -1060.03 728.963 -1082.11 746.146 -1098.94"/>
+<polygon fill="#000000" stroke="#000000" points="744.034,-1101.77 753.627,-1106.27 748.932,-1096.77 744.034,-1101.77"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="722.9808" y="-1083.4144">h</text>
+</g>
+<!-- Iced&#45;&gt;Latte -->
+<g class="edge" id="edge54">
+<title>Iced-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 846.539 -981.036 C 764.066 -944.844 504.025 -830.725 406.159 -787.778"/>
+<polygon fill="#000000" stroke="#000000" points="407.499,-784.543 396.935,-783.729 404.685,-790.953 407.499,-784.543"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="661.6855" y="-920.4144">l</text>
+</g>
+<!-- Iced&#45;&gt;Espresso -->
+<g class="edge" id="edge55">
+<title>Iced-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 859.494 -967.282 C 850.675 -950.135 838.345 -926.979 826.357 -907.214 C 722.263 -735.605 582.942 -541.869 520.093 -456.133"/>
+<polygon fill="#000000" stroke="#000000" points="522.812,-453.922 514.073,-447.932 517.169,-458.065 522.812,-453.922"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="722.9808" y="-755.4144">e</text>
+</g>
+<!-- Iced&#45;&gt;Mocca -->
+<g class="edge" id="edge56">
+<title>Iced-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 890.036 -971.161 C 898.19 -961.989 908.121 -951.284 917.663 -942.214 C 983.607 -879.534 1031.57 -888.942 1071.54 -807.214 C 1093.97 -761.375 1112.94 -618.115 1121.68 -542.711"/>
+<polygon fill="#000000" stroke="#000000" points="1125.19,-542.872 1122.85,-532.538 1118.23,-542.075 1125.19,-542.872"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="994.6033" y="-921.4144">m</text>
+</g>
+<!-- Iced&#45;&gt;Level1 -->
+<g class="edge" id="edge57">
+<title>Iced-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 895.695 -1006.95 C 909.954 -1015.21 928.743 -1025.07 946.554 -1031.21 C 1076.02 -1075.9 1239.49 -1083.64 1319.31 -1084.52"/>
+<polygon fill="#000000" stroke="#000000" points="1319.51,-1088.02 1329.54,-1084.6 1319.57,-1081.02 1319.51,-1088.02"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1126.8528" y="-1079.4144">1</text>
+</g>
+<!-- Iced&#45;&gt;Level2 -->
+<g class="edge" id="edge58">
+<title>Iced-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 899.695 -991.348 C 952.41 -989.025 1070.31 -980.576 1164.16 -950.214 C 1178.3 -945.64 1193.09 -939.143 1206.28 -932.666"/>
+<polygon fill="#000000" stroke="#000000" points="1208.21,-935.609 1215.57,-927.98 1205.06,-929.359 1208.21,-935.609"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1066.0983" y="-978.4144">2</text>
+</g>
+<!-- Iced&#45;&gt;Level3 -->
+<g class="edge" id="edge59">
+<title>Iced-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 844.27 -995.38 C 810.12 -999.277 751.546 -1005.96 709.956 -1010.71"/>
+<polygon fill="#000000" stroke="#000000" points="709.312,-1007.26 699.774,-1011.87 710.106,-1014.21 709.312,-1007.26"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-1009.4144">3</text>
+</g>
+<!-- Iced&#45;&gt;Iced -->
+<g class="edge" id="edge60">
+<title>Iced-&gt;Iced</title>
+<path fill="none" stroke="#000000" d="M 862.692 -1018.49 C 862.166 -1029.02 865.272 -1037.87 872.01 -1037.87 C 876.432 -1037.87 879.289 -1034.06 880.583 -1028.46"/>
+<polygon fill="#000000" stroke="#000000" points="884.073,-1028.72 881.328,-1018.49 877.093,-1028.2 884.073,-1028.72"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="872.0099" y="-1042.0676">i</text>
+</g>
+<!-- Iced&#45;&gt;Hot -->
+<g class="edge" id="edge61">
+<title>Iced-&gt;Hot</title>
+<path fill="none" stroke="#000000" d="M 851.735 -1011.22 C 840.4 -1022.37 826.399 -1037.05 815.466 -1051.41 C 805.683 -1064.27 796.294 -1079.47 788.757 -1092.65"/>
+<polygon fill="#000000" stroke="#000000" points="785.69,-1090.96 783.853,-1101.4 791.796,-1094.39 785.69,-1090.96"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="820.9114" y="-1055.4144">h</text>
+</g>
+<!-- Iced&#45;&gt;Money20 -->
+<g class="edge" id="edge62">
+<title>Iced-&gt;Money20</title>
+<path fill="none" stroke="#000000" d="M 878.089 -965.089 C 897.102 -880.254 955.721 -618.705 981.83 -502.209"/>
+<polygon fill="#000000" stroke="#000000" points="985.256,-502.924 984.028,-492.401 978.426,-501.393 985.256,-502.924"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="923.1084" y="-787.4144">t</text>
+</g>
+<!-- Hot&#45;&gt;Final -->
+<g class="edge" id="edge72">
+<title>Hot-&gt;Final</title>
+<path fill="none" stroke="#000000" d="M 751.723 -1139.84 C 692.356 -1183.74 516.529 -1299.31 417.293 -1210.21 C 388.967 -1184.78 276.599 -633.817 244.04 -471.703"/>
+<polygon fill="#000000" stroke="#000000" points="247.412,-470.713 242.013,-461.597 240.548,-472.09 247.412,-470.713"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="486.8692" y="-1246.4144">t</text>
+</g>
+<!-- Hot&#45;&gt;Latte -->
+<g class="edge" id="edge64">
+<title>Hot-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 748.297 -1134.45 C 741.931 -1136.93 734.99 -1139.38 728.426 -1141.21 C 715.874 -1144.71 712.519 -1145.1 699.536 -1146.21 C 581.921 -1156.32 534.62 -1155.78 441.508 -1083.21 C 399.126 -1050.19 379.089 -889.365 371.805 -812.408"/>
+<polygon fill="#000000" stroke="#000000" points="375.261,-811.766 370.861,-802.128 368.291,-812.406 375.261,-811.766"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="578.0329" y="-1154.4144">l</text>
+</g>
+<!-- Hot&#45;&gt;Espresso -->
+<g class="edge" id="edge65">
+<title>Hot-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 746.417 -1126.83 C 714.006 -1128.7 658.186 -1126.82 623.836 -1097.21 C 528.382 -1014.95 497.68 -615.277 489.475 -466.852"/>
+<polygon fill="#000000" stroke="#000000" points="492.956,-466.404 488.923,-456.607 485.966,-466.781 492.956,-466.404"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="661.6855" y="-1129.4144">e</text>
+</g>
+<!-- Hot&#45;&gt;Mocca -->
+<g class="edge" id="edge66">
+<title>Hot-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 779.109 -1099.44 C 789.789 -1065.04 812.142 -1001.82 844.357 -955.214 C 873.881 -912.498 895.246 -914.051 928.554 -874.214 C 937.805 -863.15 935.66 -856.666 946.554 -847.214 C 993.849 -806.182 1036.72 -834.253 1071.54 -782.214 C 1097.36 -743.627 1114.53 -613.55 1122.22 -542.503"/>
+<polygon fill="#000000" stroke="#000000" points="1125.71,-542.781 1123.29,-532.467 1118.75,-542.041 1125.71,-542.781"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="923.1084" y="-889.4144">m</text>
+</g>
+<!-- Hot&#45;&gt;Level1 -->
+<g class="edge" id="edge67">
+<title>Hot-&gt;Level1</title>
+<path fill="none" stroke="#000000" d="M 788.194 -1144.08 C 795.792 -1152.4 805.383 -1161.65 815.466 -1168.21 C 826.979 -1175.71 830.966 -1176.14 844.357 -1179.21 C 982.886 -1211.04 1026.49 -1216.55 1164.16 -1181.21 C 1223.71 -1165.93 1286.8 -1132.87 1326.65 -1109.61"/>
+<polygon fill="#000000" stroke="#000000" points="1328.45,-1112.61 1335.28,-1104.51 1324.89,-1106.58 1328.45,-1112.61"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1066.0983" y="-1205.4144">1</text>
+</g>
+<!-- Hot&#45;&gt;Level2 -->
+<g class="edge" id="edge68">
+<title>Hot-&gt;Level2</title>
+<path fill="none" stroke="#000000" d="M 793.076 -1139.25 C 812.595 -1151.65 842.891 -1167.21 872.01 -1167.21 C 872.01 -1167.21 872.01 -1167.21 1126.85 -1167.21 C 1172.66 -1167.21 1171.09 -1128.42 1193.05 -1088.21 C 1215.88 -1046.43 1230.85 -993.968 1239.49 -956.665"/>
+<polygon fill="#000000" stroke="#000000" points="1242.99,-957.091 1241.77,-946.567 1236.16,-955.555 1242.99,-957.091"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="994.6033" y="-1171.4144">2</text>
+</g>
+<!-- Hot&#45;&gt;Level3 -->
+<g class="edge" id="edge69">
+<title>Hot-&gt;Level3</title>
+<path fill="none" stroke="#000000" d="M 761.682 -1100.69 C 754.161 -1085.5 742.776 -1066.09 728.426 -1052.41 C 721.769 -1046.07 713.784 -1040.49 705.689 -1035.74"/>
+<polygon fill="#000000" stroke="#000000" points="707.367,-1032.67 696.919,-1030.91 703.988,-1038.8 707.367,-1032.67"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="722.9808" y="-1056.4144">3</text>
+</g>
+<!-- Hot&#45;&gt;Iced -->
+<g class="edge" id="edge70">
+<title>Hot-&gt;Iced</title>
+<path fill="none" stroke="#000000" d="M 790.958 -1106.77 C 801.958 -1096.18 815.691 -1082.07 826.357 -1068.21 C 836.502 -1055.03 846.216 -1039.44 854.057 -1025.82"/>
+<polygon fill="#000000" stroke="#000000" points="857.304,-1027.18 859.167,-1016.75 851.206,-1023.74 857.304,-1027.18"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="820.9114" y="-1083.4144">i</text>
+</g>
+<!-- Hot&#45;&gt;Hot -->
+<g class="edge" id="edge71">
+<title>Hot-&gt;Hot</title>
+<path fill="none" stroke="#000000" d="M 763.054 -1148.38 C 762.326 -1158.81 765.29 -1167.73 771.946 -1167.73 C 776.21 -1167.73 778.959 -1164.07 780.193 -1158.7"/>
+<polygon fill="#000000" stroke="#000000" points="783.707,-1158.58 780.838,-1148.38 776.721,-1158.14 783.707,-1158.58"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-1171.9344">h</text>
+</g>
+<!-- Money20&#45;&gt;Final -->
+<g class="edge" id="edge78">
+<title>Money20-&gt;Final</title>
+<path fill="none" stroke="#000000" d="M 986.817 -397.469 C 976.346 -339.932 955.844 -248.435 928.554 -228.214 C 860.878 -178.072 628.851 -220.999 550.23 -251.214 C 443.978 -292.049 329.854 -363.563 272.543 -401.648"/>
+<polygon fill="#000000" stroke="#000000" points="270.544,-398.774 264.174,-407.24 274.433,-404.594 270.544,-398.774"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="661.6855" y="-234.4144">t</text>
+</g>
+<!-- Money20&#45;&gt;Latte -->
+<g class="edge" id="edge74">
+<title>Money20-&gt;Latte</title>
+<path fill="none" stroke="#000000" d="M 946.719 -450.342 C 822.312 -464.615 493.268 -508.723 417.293 -583.214 C 396.555 -603.548 381.596 -681.63 374.029 -730.544"/>
+<polygon fill="#000000" stroke="#000000" points="370.556,-730.097 372.526,-740.508 377.478,-731.141 370.556,-730.097"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="722.9808" y="-487.4144">l</text>
+</g>
+<!-- Money20&#45;&gt;Espresso -->
+<g class="edge" id="edge75">
+<title>Money20-&gt;Espresso</title>
+<path fill="none" stroke="#000000" d="M 948.091 -432.864 C 925.328 -427.849 897.418 -423.214 872.01 -423.214 C 661.685 -423.214 661.685 -423.214 661.685 -423.214 C 621.71 -423.214 576.713 -420.053 542.382 -416.975"/>
+<polygon fill="#000000" stroke="#000000" points="542.366,-413.459 532.087,-416.026 541.724,-420.429 542.366,-413.459"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="771.9461" y="-427.4144">e</text>
+</g>
+<!-- Money20&#45;&gt;Mocca -->
+<g class="edge" id="edge76">
+<title>Money20-&gt;Mocca</title>
+<path fill="none" stroke="#000000" d="M 1039.75 -462.282 C 1053.47 -467.472 1068.55 -473.171 1082.24 -478.348"/>
+<polygon fill="#000000" stroke="#000000" points="1081.34,-481.748 1091.93,-482.011 1083.81,-475.201 1081.34,-481.748"/>
+<text font-family="Times,serif" font-size="14px" fill="#000000" text-anchor="middle" x="1066.0983" y="-476.4144">m</text>
+</g>
+</g>
+</svg>
